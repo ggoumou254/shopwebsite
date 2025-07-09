@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyShop</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+ <header class="navbar">
+  <div class="navbar-container">
+    <h1 class="logo">MyShop</h1>
+
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Prodotti</a>
+      <a href="#">Contatti</a>
+    </nav>
+
+    <div class="navbar-actions">
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Cerca prodotti..." />
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+
+      <!-- Carrello -->
+      <div class="cart-icon" id="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cart-count">0</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  <main>
+    <!-- I prodotti verranno generati via JavaScript -->
+  </main>
+  <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>MyShop</h3>
+      <p>Il tuo negozio online di fiducia. Qualità, velocità e sicurezza!</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Link utili</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Prodotti</a></li>
+        <li><a href="#">Carrello</a></li>
+        <li><a href="#">Contatti</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contatti</h4>
+      <p>Email: info@myshop.com</p>
+      <p>Telefono: +39 123 456 7890</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 MyShop. Tutti i diritti riservati.</p>
+  </div>
+</footer>
+
+</body>
+</html>
